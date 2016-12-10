@@ -87,7 +87,7 @@ class Middle:
         if ball_pos[3] >= ball.canvas_height:
             canvas.itemconfig(word_id,state="hidden")
             canvas.create_text(ball.canvas_width/3,ball.canvas_height/3,
-                               text="You lose,you get %d points"%point,
+                               text="Game over,you get %d points"%point,
                                font=('Courier',15))
             return False
         return True

@@ -1,0 +1,2 @@
+PhotoImage(file=".+?\.gif")#Can only load gif
+create_image(0,0,anchor=NW,image=PhotoImage(...))#NW means northwest
